@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="welcome">
+    <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    
+    <h1 class="wel">Welcome to Blog</h1>
+    <div class="create">
+    <a class="cre" href="/new">Create New Post</a>
+    <% posts.forEach(post => { %>
+    </div>
+    
+        <div>
+            <h1 class="<%= post.saved ? 'saved-title' : '' %>"><%= post.title %></h1>
+
+            <p><%= post.content.substring(0, 100) %>...</p>
+            <a href="/edit/<%= post._id %>">Edit</a>
+            
+        </div>
+    <% }) %>
+</body>
+</html>

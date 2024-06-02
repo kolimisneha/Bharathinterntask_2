@@ -1,0 +1,180 @@
+/* Reset some default styles */
+body, h2, p, form, input, textarea, button, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px
+}
+h1{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 20px
+
+}
+
+/* Center content vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+h1, h2 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #004d99;
+}
+
+div {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Custom class for saved title */
+.saved-title {
+    font-size: 1.5em; /* Adjust to your preferred smaller size */
+}
+
+/* Custom class for create section */
+.create {
+    background-color: lightyellow;
+    color: black;
+    padding: 20px;
+}
+
+/* Custom class for text color */
+.cre {
+    color: purple;
+}
+.wel{
+font-size: 50px
+;
+}
+.update{
+background-color: palevioletred;
+}
+.back{
+background:black;
+color: white;
+}
+.edit{
+font-size: 40px
+;
+}
+/* styles.css */
+.edit-page {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.8bQP-WF6Tc-b_BFe9vJ0tgHaEK&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.edit-post{
+background-image:url('https://www.pngkit.com/png/detail/569-5691569_white-sticky-notes-png-clipart-post-it-note.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.new{
+font-size: 30px;
+}
+.creating{
+background-image:url('https://www.knoxalliance.store/wp-content/uploads/2017/05/light-color-background-images-for-website-top-hd-images-for-free-light-color-background-images-for-website-1-1024x768.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.welcome{
+background-image:url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Blank-HD-Wallpaper.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.action-buttons {
+    display: inline-flex; /* Display items in a row */
+    gap: 10px; /* Add spacing between items */
+}
+.nav-links a {
+    margin-right: 20px; /* Adjust as needed */
+}
+/* Additional CSS for nav links */
+.nav-links a {
+    margin-right: 20px; /* Adjust as needed */
+    text-decoration: none;
+    color: #000; /* Adjust color as needed */
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.about{
+font-size: 30px;
+}
+.about-image {
+    display: block;
+    margin: 15px auto;
+    max-width: 50%; /* Ensures the image scales down if it's too large */
+    height: auto; /* Maintains aspect ratio */
+}
+.contact{
+color: blueviolet;
+}
